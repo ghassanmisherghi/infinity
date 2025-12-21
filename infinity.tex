@@ -1,6 +1,7 @@
 \documentclass[12pt,letterpaper]{article}
+\usepackage{amsfonts}
 
-\title{Debunking Cantor}
+\title{A little more about infinity}
 \author{Ghassan Misherghi}
 
 \begin{document}
@@ -16,21 +17,33 @@ show that the set of all sets does in fact contain itself. We then muse on the
 infinite and God.
 \end{abstract}
 
-To debunk Cantor's argument that the powerset of infinity is greater than
-itself we only need to show that $\infty = 2^{\infty}$. So let us look at
-$\lg\infty$. Suppose $\lg\infty$ was finite. Then $\infty$ would also be finite,
-a contradiction. So $\lg\infty$ must be infinite. This means it is just as big
-as all the naturals, so we have that $\lg\infty=\infty$. We therefore have that
+Before begining, let me state that reasoning about $\infty$ is extremely subtle,
+and we very well may be incorrect. We propose these theories to create dialogue
+so we very well may advance logic and find the truth.
+
+To deny argument that the powerset of infinity is greater than itself we only
+need to show that $\infty = 2^{\infty}$. So let us look at $\lg\infty$. Suppose
+$\lg\infty$ was finite. Then $\infty$ would also be finite, a contradiction. So
+$\lg\infty$ must be infinite. This means it is just as big as all the naturals,
+so we have that $\lg\infty=\infty$. We therefore have that
 $\infty=2^{\lg\infty}=2^{\infty}$. This method is suprisingly general, working
 with other increasing functions and their inverses.
 
-We also show the same result with a one to one mapping of
-$\mathcal{P}{(\infty})$ to $\infty$. Consider the binary representation of the
-naturals. We can map any subset of the naturals to a binary number such that
-for any element present in the subset, denoted $i$, the $i$th digit is set to
-$1$, and $0$ otherwise. This mapping shows that for any subset of the naturals
-there is exactly one number it is mapped to and vice versa. Since there is no
-maximum natural this mapping will always hold. 
+We consider a one to one mapping of $\mathcal{P}(\mathbb{N})$ to $\mathbb{N}$.
+Using the binary representation of the naturals, we can map any subset of the
+naturals to a binary number such that for any element present in the subset,
+denoted $i$, the $i$th digit is set to $1$, and $0$ otherwise. This mapping
+shows that for any subset of the naturals there is exactly one number it is
+mapped to and vice versa. Since there is no maximum natural this mapping will
+hold, as every natural is finite. But the question arises, will this work for
+the set of all naturals, an element of $\mathcal{P}(\mathbb{N})$. For it not to
+work, we must have that $\infty\in\mathbb{N}$. Even so we know that
+$\infty=2^\infty$, so it may.
+
+We give more support to $\infty\in\mathbb{N}$. We ask, how many naturals are
+there in $\mathbb{N}$. The answer is infinite and for each of them $+1$, aside
+from $0$. So we have that $1\cdot\infty$ is a natural number, thus
+$\infty\in\mathbb{N}$. 
 
 Now let us consider Cantor's argument that the set of reals is a geater infinity
 than the set of naturals. Recall that Cantor constructs a real number differing
@@ -43,22 +56,33 @@ Also, we can see that
 $\frac{1}{\infty}=\frac{2-1}{\infty}=\frac{1-1}{\infty}=\frac{0}{\infty}$.  This
 implies real numbers are always the same at infintismal places.
 
-We propose that this implies there is no greater infinity. See that
+We propose that this implies there is no greater infinity. Suppose there is a
+greater infinity than $\infty$, call it $\aleph_1$. See that
 $\frac{1}{\infty}=0$. Then it must be the case that $\frac{1}{\aleph_1}=0$. We
 now have that $\infty^{-1}=\aleph_1^{-1}$. It follows that
 $(\infty^{-1})^{-1}=(\aleph_1^{-1})^{-1}$ thus we conclude that
-$\infty=\aleph_1$. It is worth nothing that if the order of application is done
-wrongly, this results in a divide by 0. This does lead credence to dividing by
-zero resulting in $\infty$.
+$\infty=\aleph_1$. This is a contradiction, yielding that there is no greater
+infinity. It is worth nothing that if the order of application is done wrongly,
+this results in a divide by 0. This does lead credence to dividing by zero
+resulting in $\infty$.
 
 We also propose that there are no real numbers. Since the infinitismal places of
-a real number are always $0$, this means significant digits must be at finite
-places only. This implies the real number is actually a rational number.
+a real number are always $0$ (even for $\infty$, the natural), this means
+significant digits must be at finite places only. This implies the real number
+is actually a rational number. This places calculas in jeapordy. Consider that
+$\frac{\infty*1}{\infty}=1$. Then we may assume that infinite digits of $1$ at
+infinitismal decimal places may have a non-zero value. But this number is
+smaller than $2$ at the largest infintismal place. So it is alwyas $0$.
 
 Using set theoretic naturals, we need that $\infty$ contains $\infty-1$.  But
 this is $\infty$ so we conclude that $\infty\in\infty$. No typing logic is
 needed to show that the set of all sets contains itself. Perhaps this is
 necessary for $\infty+\infty=\infty$. We add that $\infty>\infty$.
+
+To be honest, these results baffle me. We believe that
+$\infty\cdot\infty=\infty$ and that $\frac{\infty}{\infty}=\infty$.  This means
+that $\frac{1}{\infty}\cdot\infty=\infty$. This produces the surprising result
+that $0\cdot\infty=\infty$. I don't know how to resolve this.
 
 We have discredited Cantor's most famous arguments. As evidence, if there were
 always a greater infinity the probability of being created would be $0$, unlike
